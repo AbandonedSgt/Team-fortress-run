@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="T|m$JP6h!BK.Kc!HTCC5">mySprite</variable><variable type="KIND_SpriteKind" id="A?fvKJ2ZJ;QBNXq$@:+V">Player</variable><variable type="KIND_SpriteKind" id="7`b*UtE0![e)zHBf5#t~">Projectile</variable><variable type="KIND_SpriteKind" id="CQCtsr/|e2WCV|ogp7[c">Food</variable><variable type="KIND_SpriteKind" id="XiY?ouJS[zL`Vr_91A6T">Enemy</variable></variables><block type="pxt-on-start" id="cVI~Qvj*u/a(GfS))K?C" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundcolor" id="_jV[%Tn33`jmxj)Ynh*U"><value name="color"><shadow type="colorindexpicker" id="Jhh%E?!a=`VH;cdOKli;"><field name="index">9</field></shadow></value><next><block type="tilemap_editor" id="a5sYI`g1OmB;Y:ZXZIOW"><field name="tilemap">tilemap`level1`</field><data>{"commentRefs":[],"fieldData":{"tilemap":"level1"}}</data><next><block type="variables_set" id="BMLuTD%3~rjb$Cd+,vKv"><field name="VAR" id="T|m$JP6h!BK.Kc!HTCC5">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="M:t.?/Lm0][8s3IOAx@!"><value name="img"><shadow type="screen_image_picker" id="T_j-tbM14_YV*cRx9rmj"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . f f f f . . . . . . 
+. . . . . . f f f f . . . . . . 
+. . . . . . f f f f . . . . . . 
+. . . . . . f f f f . . . . . . 
+. . . . . . . f . . . b b . . . 
+. . . . . f f f f f f f . . . . 
+. . . . . f . f . . . . . . . . 
+. . . . f f . f . . . . . . . . 
+. . . . . . . f . . . . . . . . 
+. . . . . . f f f . . . . . . . 
+. . . . . . f . f . . . . . . . 
+. . . . . . f . f f . . . . . . 
+. . . . . f . . . f . . . . . . 
+. . . . . f . . . f f . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"T_j-tbM14_YV*cRx9rmj"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="2;,sKuC#K|0NDkeld6Su"><field name="MEMBER">Player</field></shadow></value></block></value></block></next></block></next></block></statement></block></xml>
